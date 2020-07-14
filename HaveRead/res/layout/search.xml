@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" >
+
+        <Button
+            android:id="@+id/button_paihangbang"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/fenlei"
+            android:paddingLeft="25dp"
+            android:text="分类"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button_dongtai"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableLeft="@drawable/tuijian"
+            android:paddingLeft="30dp"
+            android:text="每日推荐"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp" >
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableTop="@drawable/jiaofu"
+                android:paddingRight="20sp"
+                android:text="教辅" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableTop="@drawable/qingchunwenxue"
+                android:paddingRight="20sp"
+                android:text="青春文学" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableTop="@drawable/renwensheke"
+                android:paddingRight="20sp"
+                android:text="人文社科" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableTop="@drawable/jingguanlicai"
+                android:paddingRight="20sp"
+                android:text="经管理财" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center|clip_horizontal"
+        android:paddingTop="30dp" >
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/shenghuo"
+            android:paddingRight="20sp"
+            android:text="生活" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/keji"
+            android:paddingRight="20sp"
+            android:text="科技" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/yingwenyuanban"
+            android:paddingRight="20sp"
+            android:text="英文原版" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:drawableTop="@drawable/tongshu"
+            android:paddingRight="20sp"
+            android:text="童书" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingTop="160dp" >
+
+        <Button
+                android:id="@+id/button_back"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/return1"
+                android:paddingRight="10dp"
+                android:text="@string/buttonback"
+                android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

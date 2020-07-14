@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zufe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".HaveReadActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Register" ></activity>
+        <activity android:name="CommunityActivity"></activity>
+        <activity android:name="FrameTableActivity"></activity>
+        <activity android:name="MeActivity"></activity>
+        <activity android:name="SearchActivity"></activity>
+        <activity android:name="normalActivity"></activity>
+        <activity android:name="DongtaiActivity"></activity>
+        <activity android:name="Dongtai_xxActivity"></activity>
+        <activity android:name="HaveReadActivity"></activity>
+        <activity android:name="renwensheke"></activity>
+        <activity android:name="meirituijian"></activity>
+        <activity android:name="santi"></activity>
+        <activity android:name="pizhu"></activity>
+        <activity android:name="BaogaoActvity"></activity>
+        
+    </application>
+
+</manifest>

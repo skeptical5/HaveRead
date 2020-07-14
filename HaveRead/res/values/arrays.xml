@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hobbies">
+        <item>少儿图书</item>
+        <item >文学小说</item>
+        <item >人文社科</item>
+        <item >生活育儿</item>
+        <item >青春动漫</item>
+        
+    </string-array>
+    
+    <string-array name="normal_maintext">
+        <item>霍乱时期的爱情</item>
+        <item>碎玉投珠</item>
+        <item>围城</item>
+        <item>骷髅幻戏图</item>
+        <item>两汉两罗马</item>
+    </string-array>
+    
+    <string-array name="normal_subtext">
+        <item>1小时前</item>
+        <item>4小时前</item>
+        <item>5小时前</item>
+        <item>5小时前</item>
+        <item>8小时前</item>
+    </string-array>
+    
+    <string-array name="normal_icons">
+        <item>pdf</item>
+        <item>txt</item>
+        <item>pdf</item>
+        <item>txt</item>
+        <item>pdf</item>
+    </string-array>
+</resources>

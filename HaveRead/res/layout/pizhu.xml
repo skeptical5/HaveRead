@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="霍乱时期的爱情"
+        android:textColor="@color/yiyuebutton"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:text="批注区"
+                android:textColor="@color/yiyuebutton"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="当阿里萨正式向费尔米纳提出结婚的建议时，他们狂热的通信已近两年了。在头六个月里，他给她寄去了几次白山茶花，她在回信时却把山茶花还给了他，为的是表明她将继续给他写信，只是还没有到定情的时刻。事实上，她一直把传递山茶花视为爱情的激越，她从来没有考虑过那表明她已到了命运的十字路口。但是，当她接到阿里萨正式建议时，她感到死神第一次在撕裂着她的心。她吓得六神无主，便把这事情告诉了姑妈。姑妈勇敢而聪明地担当起顾问的角色，可姑妈在她二十岁需要决定自己的命运时，却没有这样冷静的头脑和勇气。"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="30dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="批注"
+            android:textColor="@color/yiyuebutton"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享"
+            android:textColor="@color/yiyuebutton"
+            android:textSize="18sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/button_back"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/return1"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/buttonback"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+</LinearLayout>

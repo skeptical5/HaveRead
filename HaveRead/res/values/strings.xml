@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">已阅</string>
+    <string name="hello">Hello World, HaveReadActivity!</string>
+    <string name="yy">已阅</string>
+    <string name="tvUid">帐号：</string>
+    <string name="tvPwd">密码：</string>
+    <string name="btnLogin">登陆</string>
+    <string name="zhuce">注册</string>
+    <string name="tvReg">用户注册</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="sex">性别：</string>
+    <string name="hobby">喜欢读的书：</string>
+    <string name="hobby1">少儿图书</string>
+    <string name="hobby2">文学小说</string>
+    <string name="hobby3">人文社科</string>
+    <string name="hobby4">生活育儿</string>
+    <string name="hobby5">青春动漫</string>
+	<string name="buttonback">返回</string>
+	<string name="tabtitle1">批注</string>
+    <string name="tabtitle2">社区</string>
+	<string name="tabtitle3">搜索</string>
+	<string name="tabtitle4">我</string>
+	<string name="paihangbang1">排行榜</string>
+	<string name="paihangbang2">读《西游记》有感</string>
+	<string name="paihangbang3">BY 今天也要加油</string>
+	<string name="paihangbang4">逃离乌托邦</string>
+	<string name="paihangbang5">BY skeptical</string>
+	<string name="paihangbang6">何为人</string>
+	<string name="paihangbang7">BY MO</string>
+	<string name="paihangbang8">博物昆虫</string>
+	<string name="paihangbang9">BY 玉亮</string>
+	<string name="paihangbang10">我仍未知道那朵花的名字</string>
+	<string name="paihangbang11">BY S</string>
+	<string name="paihangbang12">读《呼兰河传》有感</string>
+	<string name="paihangbang13">BY 袋鼠耳朵</string>
+	<string name="dongtaishort">这本书很适合给处在低落期的你。换句话说，我也推荐这个时期的你多看看书，多陪陪动物。“有的时候，最好与羊群为伴，羊群不声不响，只顾吃草喝水。与书为伴也行，书总是在人们最想听故事的时候，告诉你一些意想不到的事情。” -圣地亚哥</string>
+	<string name="dongtailong">这本书很适合给处在低落期的你。换句话说，我也推荐这个时期的你多看看书，多陪陪动物。“有的时候，最好与羊群为伴，羊群不声不响，只顾吃草喝水。与书为伴也行，书总是在人们最想听故事的时候，告诉你一些意想不到的事情。” -圣地亚哥
+	    “我也结识了许多自诩为炼金术士的人，他们拥有自己的实验室，并许诺教给我炼金术的秘诀，条件是向他们支付大笔的金钱。现在我才明白，他们打算教给我的东西，他们自己却一窍不通。”</string>
+	<string name="dongtaishort1">《百年孤独》好难看懂。</string>
+	
+<drawable name="color1">#000000</drawable>
+
+<drawable name="color2">#e65357</drawable>
+</resources>
