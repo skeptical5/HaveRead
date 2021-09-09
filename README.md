@@ -2,7 +2,6 @@
 ## 2020年大二Android大作业 coder：拔牙不打麻药
 *********
 20210909更新  在HaveRead文件夹下增加了db数据库文件
-*********
 20210527更新  增加了效果图
 *********
 CSDN指路：https://blog.csdn.net/weixin_43820665/article/details/107424816
